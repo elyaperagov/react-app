@@ -12,6 +12,7 @@ import Essay from './Components/Essay';
 import Select from './Components/Select';
 import Reservation from './Components/Reservation';
 import Calculator from './Components/Calculator';
+import Dialog from './Components/Dialog';
 const comment = {
   date: new Date(),
   text: 'I hope you enjoy learning React!',
@@ -63,6 +64,7 @@ function App() {
       <Select />
       <Reservation />
       <Calculator />
+      <Dialog />
     </div>
   );
 }
